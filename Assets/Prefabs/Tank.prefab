@@ -56,6 +56,8 @@ GameObject:
   - component: {fileID: 8278588020915774249}
   - component: {fileID: 5637131413590550738}
   - component: {fileID: 5654782266870454102}
+  - component: {fileID: 6779726474891606362}
+  - component: {fileID: 7927627357700577198}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Untagged
@@ -109,7 +111,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73cd5da218a1bcb4e8f76b6aff4c4fe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: 10
+  _velocity: 10
+  _tower: {fileID: 4838358629124291969}
+--- !u!114 &6779726474891606362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5412627976890687348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+--- !u!114 &7927627357700577198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5412627976890687348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ba263ee4f2d0d4fb2e8a7bcc42bde4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelHandler: {fileID: 3659727418758038752, guid: 6e3cb4cea5237be44bb7d2b229426dc3, type: 3}
+  _tower: {fileID: 4838358629124291969}
+  _interpolationTime: 0.1
 --- !u!1001 &4949443847103666794
 PrefabInstance:
   m_ObjectHideFlags: 0
