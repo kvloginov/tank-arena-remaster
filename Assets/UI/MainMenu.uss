@@ -1,0 +1,18 @@
+.MenuButton {
+    border-left-color: rgb(17, 0, 63);
+    border-right-color: rgb(17, 0, 63);
+    border-top-color: rgb(17, 0, 63);
+    border-bottom-color: rgb(17, 0, 63);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: rgba(44, 48, 89, 255);
+    -unity-font-style: normal;
+    font-size: 24px;
+    color: rgb(17, 0, 63);
+}

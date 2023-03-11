@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenu.uss?fileID=7433441132597879392&amp;guid=d89ce3158cb096745865104b3954489e&amp;type=3#MainMenu" />
+    <ui:VisualElement name="Whole" style="flex-grow: 1; justify-content: center; align-items: center;">
+        <ui:VisualElement name="MenuSheet" style="width: 40%; height: auto; justify-content: space-around; align-items: stretch; flex-basis: 41%; flex-direction: column; flex-wrap: nowrap; flex-shrink: 1; flex-grow: 0; padding-left: 0; bottom: auto; left: auto; top: auto; border-left-color: rgb(17, 0, 63); border-right-color: rgb(17, 0, 63); border-top-color: rgb(17, 0, 63); border-bottom-color: rgb(17, 0, 63); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; background-color: rgb(72, 72, 72); padding-right: 0; border-top-left-radius: 11px; border-bottom-left-radius: 11px; border-top-right-radius: 11px; border-bottom-right-radius: 11px;">
+            <ui:Button text="HOST" display-tooltip-when-elided="true" name="ButtonHost" class="MenuButton" />
+            <ui:Button text="CLIENT" display-tooltip-when-elided="true" name="ButtonClient" class="MenuButton" />
+            <ui:Button text="SETTINGS" display-tooltip-when-elided="true" name="ButtonSettings" class="MenuButton" />
+            <ui:Button text="EXIT" display-tooltip-when-elided="true" name="ButtonExit" class="MenuButton" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
